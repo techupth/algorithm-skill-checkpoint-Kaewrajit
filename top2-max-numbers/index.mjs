@@ -14,7 +14,7 @@ export const getTop2MaxNumbers = (numbers) => {
   }
 
   let max1 = numbers[0];
-  let max2 = numbers[1];
+  let max2 = numbers[0];
 
   for (let i = 0; i < numbers.length; i++) {
     const currentNumber = numbers[i];
